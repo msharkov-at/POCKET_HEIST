@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/msharkov/**)",
+      "Read(//c/Users/msharkov/.claude/**)",
+      "Bash(jq '.env // {} | keys' ~/.claude/settings.json)",
+      "Bash(command -v node)",
+      "Bash(command -v python)",
+      "Bash(command -v python3)",
+      "Bash(node *)",
+      "Read(//c/ProgramData/ClaudeCode/**)",
+      "Read(//c/Program Files/ClaudeCode/**)",
+      "WebFetch(domain:downloads.claude.ai)",
+      "WebSearch"
+    ]
+  }
+}

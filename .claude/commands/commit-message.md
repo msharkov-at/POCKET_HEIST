@@ -45,3 +45,4 @@ Use the following format for making the commit message:
 
 
 DO NOT auto-commit - wait for user approval, and only commit if the user says so.
+

@@ -1,8 +1,7 @@
 ---
-description: Create a commit message by analyzing git diffs
-allowed-tools: Bash(git status:*), Bash(git diff --staged), Bash(git commit:*)
+description: Create a commit message by analyzing git diffs.
+allowed-tools: Bash(git status:*), Bash(git diff --staged), Bash(git commit:*).
 ---
-
 
 ## Your task:
 
@@ -15,7 +14,7 @@ git status
 git diff --staged
 ```
 
-## Commit types with emojis
+## Commit types with emojis:
 
 Only use the following emojis:
 
@@ -35,7 +34,6 @@ Use the following format for making the commit message:
 <emoji><type>: <concise_description>
 <optional_body_explaining_why>
 ```
-
 
 ## Output:
 
